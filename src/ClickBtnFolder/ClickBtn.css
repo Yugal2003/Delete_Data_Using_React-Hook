@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(136, 255, 0);
+}
+.heading{
+    font-size: 40px;
+    font-family: "Lucida Handwriting", cursive;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.flex{
+    font-family: Papyrus;
+    font-weight: 900;
+    font-size: 22px;
+    color: rgb(96, 46, 7);
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.design{
+    margin-top: 2rem;
+}
+.left{
+    cursor: pointer;
+    border-radius: 30px;
+    padding:0.5rem;
+    border: none;
+    color: white;
+    background-color: red;
+    margin-left: 2rem;
+    font-size: 14px;
+}
+.margin_left{
+    padding-left: 2rem;
+}
+.clear{
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 3rem;
+    border-radius: 30px;
+    padding:0.5rem 1rem;
+    border: none;
+    color: white;
+    background-color: red;
+    margin-left: 47%;
+}
+.clear:hover{
+    color: whitesmoke;
+    background-color: rgb(240, 6, 6);
+}
+.left:hover{
+    color: whitesmoke;
+    background-color: rgb(240, 6, 6);
+}
